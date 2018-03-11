@@ -135,7 +135,7 @@ Here are the results of the prediction:
 
 The model was able to almost correctly guess 1 of the 5 traffic signs, which gives an accuracy of < 20%. This is surprising because I thought that considering that accuracy was very consistant between training, validation, and testing that it would generalize well. 
 
-#### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
+#### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability.
 
 
 None of the images had probabilities higher than 29%, so it is not surprising that they all were wrong. 
@@ -190,7 +190,5 @@ Wrong
 | .05				    |     100 km/h  							|
 The second highest probability is the correct one.
 
-### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
-#### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 
 
