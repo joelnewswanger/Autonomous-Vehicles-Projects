@@ -33,4 +33,4 @@ Another shortcoming is that currently if it cannot find a line in a frame it thr
 
 A possible improvement would be to guess based on previous frames if a line cannot be found in a frame, or at least continue on to the next frame without throwing an error.
 
-Another potential improvement could be to use machine learning to determine what lines are lane lines and which are distractions. 
+Another potential improvement could be to use machine learning to determine what lines are lane lines and which are distractions. * See project "Advanced lane finding" *
