@@ -24,6 +24,7 @@ python drive.py model.h5
 ```
 and then opening the simulator and selecting "autonomous mode".
 
+![Autonomous mode](SDCsim.png)
 ---
 
 The model.ipynb file contains the code for training and saving the convolution neural network. The file shows the pipeline I used for training and validating the model, and it contains comments to explain how the code works.
