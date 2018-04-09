@@ -12,8 +12,7 @@
 
 #### My project includes the following files:
 * Model.ipynb containing the script to create and train the model
-* model.h5 containing a trained convolution neural network 
-* writeup_report.md summarizing the results
+* model.h5 containing a trained convolution neural network
 * run1.mp4 documenting the performance of the model on track 1.
 * run2.mp4 documenting the performance of the model on track 2.
 * drive.py Udacity provided script for running the simulator in autonomous mode
