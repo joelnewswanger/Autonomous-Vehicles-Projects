@@ -5,7 +5,7 @@
 The goals / steps of this project are the following:
 * Use the Udacity provided simulator to collect data of good driving behavior
 * Build a convolution neural network in Keras that predicts steering angles from images
-* Train and validate the model with a training and validation set
+* Train the model on an AWS GPU instance
 * Test that the model successfully drives around track one without leaving the road
 * Summarize the results with a written report
 
@@ -91,7 +91,8 @@ In addition I gathered data on track 2 to enable better generalization.
 Finally, I added some data from specific places that the model struggled with.
 After the final collection process, I had ~10,000 data points.
 
-
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. I used a callback to epoch with the best validation score. I used an adam optimizer so that manually training the learning rate wasn't necessary.
+
+I loaded the data and jupyter notebook onto an AWS GPU-enabled EC2 instance to carry out the training, and retreived the saved model once the training was complete.
