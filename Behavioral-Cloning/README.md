@@ -2,7 +2,7 @@
 
 ![Autonomous mode](SDCsim.png)
 
-The goals / steps of this project are the following:
+#### The goals / steps of this project are the following:
 * Use the Udacity provided simulator to collect data of good driving behavior
 * Build a convolution neural network in Keras that predicts steering angles from images
 * Train the model on an AWS GPU instance
