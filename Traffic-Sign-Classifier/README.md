@@ -36,8 +36,7 @@ I used the python len() function and the pandas library to calculate summary sta
 * The number of unique classes/labels in the data set is 43
 
 ---
-
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data is distributed between the 43 classes.
+ ##### The distribution of the data between the 43 classes.
 
 ![Distribution of data between classes][image1]
 
