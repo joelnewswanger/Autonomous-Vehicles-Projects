@@ -32,9 +32,22 @@ The model.ipynb file contains the code for training and saving the convolution n
 
 #### Model:
 
-My model consists of a convolution neural network with 3 layers with 3x3 filter sizes and depths of 16, 32, and 64. 
+The final model architecture consisted of a convolution neural network with the following layers:
 
-The model includes RELU activation to introduce nonlinearity, and the data is normalized and centered in the model using a Keras lambda layer. 
+| Layer         		|     Description	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| Lambda         		| Normalization and centering  					| 
+| Convolution 3x3     	| depth 16 	|
+| RELU					|												|
+| Max pooling	      	| 2x2 stride 		    		|
+| Convolution 3x3	    | depth 32	|
+| RELU                  |                                               |
+| Max pooling	      	| 2x2 stride 		    		|
+| Convolution 3x3     	| depth 64 	|
+| RELU					|												|
+| Max pooling	      	| 2x2 stride 		    		|
+| Flatten	      	| 	    		|
+| Dense         | Single node |
 
 #### Attempts to reduce overfitting in the model
 
@@ -69,21 +82,6 @@ I gathered more training data on track 1, bringing my training set up to two lap
 There were still a few spots where the vehicle fell off the track, such as the corner after the bridge where the curb is dirt. To solve this, I added training data for the few spots that it struggled.
 
 At the end of the process, the vehicle is able to drive autonomously around track 1 without leaving the road, and can navigate all but the three sharpest corners of the more difficult track 2.
-
-#### 2. Final Model Architecture
-
-The final model architecture consisted of a convolution neural network with the following layers:
-
-Lambda normalization and centering
-Conv2d 3x3 depth 16
-Max pooling 
-Conv2d 3x3 depth 32
-Max pooling
-Conv2d 3x3 depth 64
-Max pooling
-Flatten
-Dense single node
-
 
 
 #### 3. Creation of the Training Set & Training Process
