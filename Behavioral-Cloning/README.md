@@ -14,7 +14,6 @@ The goals / steps of this project are the following:
 * writeup_report.md summarizing the results
 * run1.mp4 documenting the performance of the model on track 1.
 * run2.mp4 documenting the performance of the model on track 2.
-* linux_simulator provided by Udacity
 * drive.py Udacity provided script for running the simulator in autonomous mode
 
 #### Instructions:
