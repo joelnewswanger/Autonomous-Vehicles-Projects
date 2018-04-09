@@ -16,7 +16,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./distribution.jpg "Visualization"
+[image1]: ./distribution.png "Visualization"
 [image2]: .signs/1.jpeg "1"
 [image3]: .signs/2.jpeg "2"
 [image4]: .signs/3.jpeg "3"
