@@ -69,7 +69,7 @@ To capture good driving behavior, I first recorded one lap in both directions on
 
 I randomly shuffled the data set and put 20% of the data into a validation set. 
 
-I used this training data for training the model. The validation set helped determine if the model was over or under fitting. I used a callback to the epoch with the best validation score. I used an adam optimizer so that manually training the learning rate wasn't necessary.
+I used this training data for training the model. The validation set helped determine if the model was over or under fitting. I used a callback to the epoch with the best validation score. 
 
 I loaded the data and jupyter notebook onto an AWS GPU-enabled EC2 instance to carry out the training, and retreived the saved model once the training was complete.
 
@@ -79,4 +79,4 @@ I then recorded one more lap in both directions, including some recoveries from 
 
 After training on this data, there were still a few spots where the vehicle fell off the track, such as the corner after the bridge where the curb is dirt. To solve this, I added training data for the few spots that it struggled. After this the training data set was ~ 10,000 images.
 
-At the end of the process, the vehicle is able to drive autonomously around track 1 without leaving the road, and can navigate all but the three sharpest corners of the more difficult track 2.
+Finally, the vehicle is able to drive autonomously around track 1 without leaving the road, and can navigate all but the three sharpest corners of the more difficult track 2.
