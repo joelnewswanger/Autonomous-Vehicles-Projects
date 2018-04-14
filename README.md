@@ -6,7 +6,7 @@ Projects from studies in Autonomous vehicles including the Udacity Self-driving 
 
 ### Computer Vision:
 
-#### [Lane Line Detection](../LaneLine_Detection/)
+#### [Lane Line Detection](LaneLine_Detection/)
 
 * Using computer vision methods to detect lane lines in video.
 
