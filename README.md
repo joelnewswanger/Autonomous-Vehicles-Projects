@@ -8,13 +8,15 @@ Projects from studies in Autonomous vehicles including the Udacity Self-driving 
 
 #### Lane Line Detection
 
-Using CV methods to detect lane lines in video.
+Using Computer Vision methods to detect lane lines in video.
 
 Skills used: OpenCV, Canny transform, ROI, Hough lines.
 
 #### Traffic sign classifier
 
+Using Deep learning to classify images of german traffic signs.
 
+Skills used: Keras, Image preprocessing / Augmentation, Convolutional NN.
 
 #### Behavioral Cloning
 
