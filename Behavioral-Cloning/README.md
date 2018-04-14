@@ -65,10 +65,9 @@ Training data was chosen to keep the vehicle driving on the road. I used a combi
 
 #### Creation of the Training Set & Training Process
 
-To capture good driving behavior, I first recorded one lap in both directions on track 1 using center lane driving. 
-In addition I gathered data on track 2 to enable better generalization.
+To capture good driving behavior, I first recorded one lap in both directions on track 1 using center lane driving.
 
-I finally randomly shuffled the data set and put 20% of the data into a validation set. 
+I randomly shuffled the data set and put 20% of the data into a validation set. 
 
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. I used a callback to the epoch with the best validation score. I used an adam optimizer so that manually training the learning rate wasn't necessary.
 
