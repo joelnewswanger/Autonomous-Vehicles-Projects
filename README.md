@@ -1,8 +1,25 @@
 # Autonomous-Vehicles-Projects
 
-Course projects from studies in Autonomous vehicles including the Udacity Self-driving Car Engineer Nanodegree.
+Projects from studies in Autonomous vehicles including the Udacity Self-driving Car Engineer Nanodegree and other personally motivated research.
 
-These are the projects that I have completed while learning to enginner autonomous driving systems, mainly from the
-Udacity Nanodegree, but with some additional side study.
-Some of the Udacity labs have been edited for readability after I completed them, as the originals have some quite 
-lengthy comments by the designers of the labs.
+## Contents:
+
+### Computer Vision:
+
+#### Lane Line Detection
+
+Using CV methods to detect lane lines in video.
+
+Skills used: OpenCV, Canny transform, ROI, Hough lines.
+
+#### Traffic sign classifier
+
+
+
+#### Behavioral Cloning
+
+#### Advanced Lane finding
+
+### Sensor Fusio and Localization:
+
+### Path Planning and Control:
