@@ -16,7 +16,9 @@
 
 ### 1. Description of pipeline
 
-My pipeline() function consisted of 6 steps. First, I converted the images to grayscale and applied a gaussian blur with a kernel size of 5. Then, I applied the Canny transform with a lower threshold of 75 and upper threshold of 150. I selected separate areas of interest for the left and right lane lines, and fed both into the Hough lines function. The Hough lines function sends final lines to the draw_lines() function, which draws them onto a canvas the size of the original picture. The weighted_img() function then overlays the lines onto the original picture, producing the final product returned by pipeline().
+My pipeline() function consisted of 6 steps. First, I converted the images to grayscale and applied a gaussian blur with a kernel size of 5. Then, I applied the Canny transform with a lower threshold of 75 and upper threshold of 150. I selected separate areas of interest for the left and right lane lines, and fed both into the Hough lines function.
+
+The Hough lines function sends final lines to the draw_lines() function, which draws them onto a canvas the size of the original picture. The weighted_img() function then overlays the lines onto the original picture, producing the final product returned by pipeline().
 
 I modified the Hough lines function to find the lines separately for the left and right, and for each side to find the average slope and x coordinate at y=400 for all lines with a slope of 70 +- 20. I then extrapolated along the average slope from the average (x,400) point to the horizon (x,325) and the bottom of the picture (x,540), and sent this line to the draw_lines() function.
 
