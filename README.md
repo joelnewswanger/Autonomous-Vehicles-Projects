@@ -12,19 +12,19 @@ Projects from studies in Autonomous vehicles including the Udacity Self-driving 
 
 * Skills used: OpenCV, Canny transform, ROI, Hough lines.
 
-#### Traffic sign classifier
+#### [Traffic sign classifier](Traffic-Sign-Classifier)
 
 * Using deep learning to classify images of german traffic signs.
 
 * Skills used: Keras, Image preprocessing/augmentation, Conv NN-classification.
 
-#### Behavioral Cloning
+#### [Behavioral Cloning](Behavioral-Cloning)
 
 * Using end-to-end deep learning to control steering angle based on video in simulation.
 
 * Skills used: AWS EC2, Conv NN-regression, Data collection
 
-#### Advanced Lane finding
+#### [Advanced Lane finding](Advanced-Lane-Finding)
 
 ### Sensor Fusion and Localization:
 
