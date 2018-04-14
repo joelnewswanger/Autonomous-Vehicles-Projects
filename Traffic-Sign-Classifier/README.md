@@ -74,12 +74,6 @@ The data generator implements shear, zoom and rotational modifications to the da
 ##### Training:
 To train the model, I fit the model to the data generator using a batch size of 20, for 20 epochs, validating against the unaugmented validation data, and using a callback to a ModelCheckpoint set to save best only.
 
-
-##### My final model results were:
-* training set accuracy of **96.32%**
-* validation set accuracy of **95.92**
-* test set accuracy of **95.02**
-
 #### An iterative approach:
 * The first arcitecture that was tried was just the three conv layers with the one dense 43 layer, because this has been a successful starting place in the past.
 * The highest accuracy I could get from just the conv layers was in the 80s.
@@ -88,3 +82,10 @@ To train the model, I fit the model to the data generator using a batch size of 
 * 25% Dropout layers were added between the Dense layers, which solved this problem.
 * I experimented with many different numbers of filters for the conv layers, and numbers of nodes in the dense layers, to find the most optimal arrangement.
 * The convolutional network architecture is suitable for this problem because convolutional layers preserve the spatial relationships of the data which is important for features of an image. Three layers is optimal because it allows for low medium and high level features, and the dense layers help to make the right decisions based on the information provided by the conv network.
+
+
+##### My final model results were:
+* training set accuracy of **96.32%**
+* validation set accuracy of **95.92**
+* test set accuracy of **95.02**
+
