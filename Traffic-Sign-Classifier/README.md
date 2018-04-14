@@ -18,9 +18,13 @@ The goals / steps of this project are the following:
 
 [image1]: ./distribution.png "Visualization"
 
+[image2]: ./grayscale.jpg "Visualization"
+
 ---
 
 ### Data Set Summary & Exploration
+
+The data set was comprised of close-up images of german traffic signs.
 
 I used the python len() function and the pandas library to calculate summary statistics of the traffic signs data set:
 
@@ -42,6 +46,9 @@ I used the python len() function and the pandas library to calculate summary sta
 As a first step, I one-hot encoded the label data for all the data to allow for using softmax outputs for prediction.
 
 Next, I converted the images to grayscale, because this is more accurate and efficient.
+
+![Grayscale][image2]
+
 
 As a last step, I centered and normalized the pixel values which is necessary for a model to function.
 
