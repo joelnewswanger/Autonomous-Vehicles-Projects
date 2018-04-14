@@ -17,11 +17,6 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./distribution.png "Visualization"
-[image2]: .signs/1.jpeg "1"
-[image3]: .signs/2.jpeg "2"
-[image4]: .signs/3.jpeg "3"
-[image5]: .signs/4.jpeg "4"
-[image6]: .signs/5.jp3g "5"
 
 ---
 
@@ -42,6 +37,8 @@ I used the python len() function and the pandas library to calculate summary sta
 
 ### Design and Test a Model Architecture
 
+##### Preprocessing techniques
+
 As a first step, I one-hot encoded the label data for all the data to allow for using softmax outputs for prediction.
 
 Next, I converted the images to grayscale, because this is more accurate and efficient.
@@ -53,7 +50,7 @@ I decided to use a keras imagedatagenerator() to implement image augmentation on
 The data generator implements shear, zoom and rotational modifications to the data as it 'flows' batches to the model during training. 
 
 
-##### My final model consisted of the following layers:
+##### My Neural Network consisted of the following layers:
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
