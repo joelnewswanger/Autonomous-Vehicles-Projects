@@ -1,6 +1,6 @@
 # Autonomous-Vehicles-Projects
 
-Projects from studies in Autonomous vehicles including the Udacity Self-driving Car Engineer Nanodegree and other personally motivated research.
+Projects from studies in machine learning for Autonomous vehicles including the Udacity Self-driving Car Engineer Nanodegree and other personally motivated research.
 
 ## Contents:
 
